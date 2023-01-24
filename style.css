@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  
+  /* background */
+  background: url(./images/bg-mobile.svg) ;
+  background-size: 100%;
+ 
+  object-fit: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  
+ background-color: hsl(257, 40%, 49%);
+}
+
+ul , li{
+  list-style: none;
+}
+img{
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+h1, 
+h2,
+h3,
+p{
+  color: #fff;
+}
+
+input , textarea , button {
+  font-family: inherit;
+}
+
+
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* main style */
+.img-container{
+  padding: 2rem;
+}
+.container-img{
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  padding-top: 5rem;
+  
+}
+
+
+
+/* logo */
+
+.logo-img{
+  /* Top Right Bottom left */
+ padding: 2.8125rem 1.5rem 1rem 1.6875rem ;
+ height: 40px;
+}
+.text-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-title{
+  font-size:3rem;
+  /* max-width:350px; */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+.conatiner-lead{
+   text-align: center;
+   font-size: 1.9rem;
+   max-width: 290px;
+}
+.btn-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+ display: inline-block;
+ cursor: pointer;
+ font-size: 1.8rem;
+ border: none;
+ background: none;
+}
+.btn-primary{
+  padding: 1.1875rem 10rem;
+  background-color: #FFF;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: #7664a1;
+  /* Top Right Bottom left */
+  margin: 2.605rem 0 4.68rem  0;
+  
+}
+.social-media {
+ margin: 6rem 0 7rem 0;
+}
+.social-media i{
+     color: #fff;
+     cursor: pointer;
+     font-size: 21px;
+     border: 1px solid #fff;
+     border-radius: 50%;
+     padding: 12px 12px;
+}
+.social-media i:not(:first-child):not(:last-child){
+  margin: 0 19px;
+}
+/*hover effect*/
+.social-media i:hover{
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  transition: 0.7s;
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+
+
+
+
+
+@media (min-width:800px){
+  body{
+    background: url(./images/bg-desktop.svg) no-repeat  center center fixed ;
+    background-size: cover;
+   object-fit: cover;
+   background-repeat: no-repeat;
+     background-position: cover; 
+     background-color: hsl(257, 40%, 49%);
+   overflow: hidden;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+   
+    flex-direction: row;
+  }
+ 
+  
+}
