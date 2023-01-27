@@ -12,13 +12,13 @@ Users should be able to:
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Links
+# Links
 
 - Solution URL: [Live solution URL](https://www.frontendmentor.io/solutions/responsive-design-huddle-landing-page-with-pure-css-Qc7xD8-3l4)
 - Live Site URL: [Live site URL here](https://itsnooshin.github.io/huddle-landing-page/)
 
 
-### Built with
+# Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
